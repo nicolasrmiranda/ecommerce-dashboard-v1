@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BRAND - Resume</title>
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- navbar responsiva -->
+        <aside id="menu">
+            <nav class="navbar">
+                <span class="logo">
+                    <span class="icon">
+                        <ion-icon name="cube-outline"></ion-icon>
+                    </span>
+                    <h4>Brand name</h4>
+                </span>
+                <ul>
+                    <a href="index.html" class="opc">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="txt">Dashboard</span>
+                    </a>
+                    <a href="#" class="opc">
+                        <span class="icon">
+                            <ion-icon name="people-outline"></ion-icon>
+                        </span>
+                        <span class="txt">Customers</span>
+                    </a>
+                    <a href="#" class="opc">
+                        <span class="icon">
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                        </span>
+                        <span class="txt">Message</span>
+                    </a">
+                    <a href="#" class="opc">
+                        <span class="icon">
+                            <ion-icon name="help-outline"></ion-icon>
+                        </span>
+                        <span class="txt">Help</span>
+                    </a>
+                    <a href="#" class="opc">
+                        <span class="icon">
+                            <ion-icon name="settings-outline" size="medi"></ion-icon>
+                        </span>
+                        <span class="txt">Settings</span>
+                    </a>
+                    <a href="#" class="opc">
+                        <span class="icon">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                        </span>
+                        <span class="txt">Password</span>
+                    </a>
+                    <a href="#" class="opc">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="txt">Sign Out</span></li>
+                    </a>
+                </ul>
+            </nav>
+        </aside>
+        <main class="container">
+            <nav class="navbar-container">
+                <ul>
+                    <li class="hamb">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </li>
+                    <li class="search-bar">
+                        <input type="text" class="inpt" placeholder="Search here">
+                    </li>
+                    <li class="img-account"></li>
+                </ul>
+            </nav>
+            <section class="views">
+                <a href="views.html">
+                    <article class="daily-views" onclick="dailyViews()">
+                        <span class="txt">
+                            <h4>1,504</h4>
+                            <p>Daily Views</p>
+                        </span>
+                        <ion-icon name="eye-outline"></ion-icon>
+                    </article>
+                </a>
+                <a href="#">
+                    <article>
+                        <span class="txt">
+                            <h4>80</h4>
+                            <p>Sales</p>
+                        </span>
+                        <ion-icon name="cart-outline"></ion-icon>
+                    </article>
+                </a>
+                <a href="#">
+                    <article>
+                        <span class="txt">
+                            <h4>284</h4>
+                            <p>Comments</p>
+                        </span>
+                        <ion-icon name="chatbubbles-outline"></ion-icon>
+                    </article>
+                </a>
+                <a href="#">
+                    <article>
+                        <span class="txt">
+                            <h4>$7,842</h4>
+                            <p>Earning</p>
+                        </span>
+                        <ion-icon name="cash-outline"></ion-icon>
+                    </article>
+                </a>
+            </section>
+            <section class="main-content">
+                <article class="dashboard">
+                    <article class="orders">
+                        <span class="title">
+                            <h2 class="recent">Recent Orders</h2>
+                            <button class="btn-view">View All</button>
+                        </span>
+                        <span class="order-title">
+                            <div class="cont1">
+                                <h6 class="name">Name</h6>
+                                <p class="price">Price</p>
+                            </div>
+                            <div class="cont2">
+                                <p class="payment">Payment</p>
+                                <div class="status">Status</div>
+                            </div>
+                        </span>
+                        <ul>
+                            <li class="order">
+                                <div class="cont1">
+                                    <h6 class="name">Star Refrigerator</h6>
+                                    <p class="price">$1200</p>
+                                </div>
+                                <div class="cont2">
+                                    <p class="payment">Paid</p>
+                                    <div class="status">Delivered</div>
+                                </div>
+                            </li>
+                            <li class="order pending">
+                                <div class="cont1">
+                                    <h6 class="name">Window Coolers</h6>
+                                    <p class="price">$110</p>
+                                </div>
+                                <div class="cont2">
+                                    <p class="payment">Due</p>
+                                    <div class="status">Pending</div>
+                                </div>
+                            </li>
+                            <li class="order return">
+                                <div class="cont1">
+                                    <h6 class="name">Speakers</h6>
+                                    <p class="price">$620</p>
+                                </div>
+                                <div class="cont2">
+                                    <p class="payment">Paid</p>
+                                    <div class="status">Return</div>
+                                </div>
+                            </li>
+                            <li class="order in-progress">
+                                <div class="cont1">
+                                    <h6 class="name">Hp Laptop</h6>
+                                    <p class="price">$110</p>
+                                </div>
+                                <div class="cont2">
+                                    <p class="payment">Due</p>
+                                    <div class="status">In Progress</div>
+                                </div>
+                            </li>
+                            <li class="order">
+                                <div class="cont1">
+                                    <h6 class="name">Apple Watch</h6>
+                                    <p class="price">$1200</p>
+                                </div>
+                                <div class="cont2">
+                                    <p class="payment">Paid</p>
+                                    <div class="status">Delivered</div>
+                                </div>
+                            </li>
+                            <li class="order pending">
+                                <div class="cont1">
+                                    <h6 class="name">Wall Fan</h6>
+                                    <p class="price">$110</p>
+                                </div>
+                                <div class="cont2">
+                                    <p class="payment">Paid</p>
+                                    <div class="status">Pending</div>
+                                </div>
+                            </li>
+                            <li class="order return">
+                                <div class="cont1">
+                                    <h6 class="name">Adidas Shoes</h6>
+                                    <p class="price">$620</p>
+                                </div>
+                                <div class="cont2">
+                                    <p class="payment">Paid</p>
+                                    <div class="status">Return</div>
+                                </div>
+                            </li>
+                            <li class="order in-progress">
+                                <div class="cont1">
+                                    <h6 class="name">Denim Shirts</h6>
+                                    <p class="price">$110</p>
+                                </div>
+                                <div class="cont2">
+                                    <p class="payment">Due</p>
+                                    <div class="status">In Pogress</div>
+                                </div>
+                            </li>
+                            <li class="order pending">
+                                <div class="cont1">
+                                    <h6 class="name">Casual Shoes</h6>
+                                    <p class="price">$575</p>
+                                </div>
+                                <div class="cont2">
+                                    <p class="payment">Paid</p>
+                                    <div class="status">Pending</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </article>
+                    <aside class="recent-customers">
+                        <h2 class="title">Recent Costumers</h2>
+                        <ul>
+                            <li class="costumer">
+                                <article>
+                                    <div class="pic p1"></div>
+                                </article>
+                                <article class="txt">
+                                    <h5>Annie</h5>
+                                    <p>Italy</p>
+                                </article>
+                            </li>
+                            <li class="costumer">
+                                <article>
+                                    <div class="pic p2"></div>
+                                </article>
+                                <article class="txt">
+                                    <h5>David</h5>
+                                    <p>United States</p>
+                                </article>
+                            </li>
+                            <li class="costumer">
+                                <article>
+                                    <div class="pic p3"></div>
+                                </article>
+                                <article class="txt">
+                                    <h5>Emily</h5>
+                                    <p>Canada</p>
+                                </article>
+                            </li>
+                            <li class="costumer">
+                                <article>
+                                    <div class="pic p4"></div>
+                                </article>
+                                <article class="txt">
+                                    <h5>Helena</h5>
+                                    <p>United States</p>
+                                </article>
+                            </li>
+                            <li class="costumer">
+                                <article>
+                                    <div class="pic p5"></div>
+                                </article>
+                                <article class="txt">
+                                    <h5>Miguel</h5>
+                                    <p>Brazil</p>
+                                </article>
+                            </li>
+                            <li class="costumer">
+                                <article>
+                                    <div class="pic p6"></div>
+                                </article>
+                                <article class="txt">
+                                    <h5>Connor</h5>
+                                    <p>South Africa</p>
+                                </article>
+                            </li>
+                            <li class="costumer">
+                                <article>
+                                    <div class="pic p7"></div>
+                                </article>
+                                <article class="txt">
+                                    <h5>Karen</h5>
+                                    <p>United States</p>
+                                </article>
+                            </li>
+                        </ul>
+                    </aside>
+                </article>
+            </section>
+            <!-- FAZER ESSA ÁREA DO CHART.JS -->
+        </main>
+        <script 
+            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js" 
+            integrity="sha512-sW/w8s4RWTdFFSduOTGtk4isV1+190E/GghVffMA9XczdJ2MDzSzLEubKAs5h0wzgSJOQTRYyaz73L3d6RtJSg==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer">
+        </script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
